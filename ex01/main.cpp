@@ -6,7 +6,7 @@
 #define LEN 5
 
 template <typename T>
-static void print(T &i)
+static void print(const T &i)
 {
 	std::cout << i << std::endl;
 }
